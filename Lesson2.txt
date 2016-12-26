@@ -9,5 +9,38 @@ What value do you think it offers?
 
   The working directory is the local area as to where my files are located whereas
   a repository is the cloud as to where I want to save my files from the working
-  directory. The staging area serves as the bridge between the two. It is where
-  we prepare our files to be committed to the repository.
+  directory when I change them. The staging area serves as the bridge between the
+  two. It is where we prepare our files to be committed to the repository.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+  Since the staging area shows the files to commit, then you can see how many
+  files there are that needs to be committed to the repository. If there's too
+  much files, then there's a chance that the programmer might have done too many
+  changes already and have not yet committed these.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+  If a programmer wishes to do experimental changes to the code, it would be
+  better to do it in a different branch since this does not seem like a major
+  update and thus should not be done along the main line of work. It's also helpful
+  in case a big change needs to be introduced and it requires quite some time to
+  work on. In this case, these changes can be done in a separated branch. When
+  the change is finished, then the branch can now be merged to the master branch.
+
+How do the diagrams help you visualize the branch structure?
+
+  Given that there could be several branches sprouting from different points in
+  the git timeline, it would be confusing to just picture the whole thing out
+  without the help of visual aids. By drawing the diagrams, we can easily follow
+  at which points the branches started, which commits are parents of other commits,
+  and which commits are unreachable from other branches.
+
+What is the result of merging two branches together? Why do we represent it in a
+diagram the way we do?
+
+  Merging the two branches together combined the changes that were made on each
+  separate branch into just one branch. We draw the diagram that way because the
+  merge commit is parent to the commits on all branches involved in the merge.
