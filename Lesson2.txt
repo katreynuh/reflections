@@ -44,3 +44,10 @@ diagram the way we do?
   Merging the two branches together combined the changes that were made on each
   separate branch into just one branch. We draw the diagram that way because the
   merge commit is parent to the commits on all branches involved in the merge.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+  Git's automatic merging relieves us of the task of merging files that does not
+  contain conflict. For example, 2 developers add 2 different functions that are
+  independent of each other.
