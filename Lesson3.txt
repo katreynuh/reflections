@@ -23,3 +23,10 @@ one instead of the other?
   forks, though similar to clones in the sense that it's also used to copy a
   repository, credits the original creator of the project and any changes made to
   the forked repository is not reflected in the original repository.
+
+What is the benefit of having a copy of the last known state of the remote stored
+locally?
+
+  By saving a copy of the last known state of the remote, it would be easier to
+  coordinate between the local and the remote in terms of making changes with the
+  different files.
