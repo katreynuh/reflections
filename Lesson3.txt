@@ -30,3 +30,19 @@ locally?
   By saving a copy of the last known state of the remote, it would be easier to
   coordinate between the local and the remote in terms of making changes with the
   different files.
+
+How would you collaborate without using Git or GitHub? What would be easier and
+what would be harder?
+
+  Sending files between collaborators would probably be done using e-mail or cloud
+  sharing services like Dropbox and Google Drive. It would be harder to figure
+  out which changes were made for the files especially if it involves a lot of
+  changes.
+
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+
+  Major changes, especially with code, should be made in a different branch because
+  if these changes does not go well and messes up the whole program, it would be
+  hard to safely revert to the old program. Creating new functions and features
+  should be done in a separate branch then.
